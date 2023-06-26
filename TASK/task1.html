@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Website Layout</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		header {
+			background-color: #a48a8a;
+			color: #0f0808;
+			padding: 10px;
+		}
+
+		nav {
+			background-color: #f2f2f2;
+			padding: 10px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+		}
+
+		nav ul li {
+			margin-right: 10px;
+		}
+
+		nav ul li a {
+			color: #333;
+			text-decoration: none;
+			padding: 5px;
+		}
+
+		nav ul li a:hover {
+			background-color: #333;
+			color: #fff;
+		}
+
+		.main-container {
+			display: flex;
+			flex-wrap: wrap;
+			margin: 10px;
+		}
+
+		.main-container .sidebar {
+			flex: 3;
+			margin-right: 10px;
+		}
+
+		.main-container .content {
+			flex: 3;
+		}
+
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Website Title</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+		<form>
+			<input type="text" placeholder="Search...">
+			<button type="submit">Go</button>
+		</form>
+	</nav>
+	<div class="main-container">
+		<div class="sidebar">
+			<h2>Sidebar</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, elit vel bibendum bibendum, ipsum urna bibendum elit, sed bibendum nunc elit nec enim. Sed vitae elit vitae odio bibendum bibendum. Sed nec magna vel lorem bibendum bibendum. Sed euismod, elit vel bibendum bibendum, ipsum urna bibendum elit, sed bibendum nunc elit nec enim. Sed vitae elit vitae odio bibendum bibendum. Sed nec magna vel lorem bibendum bibendum.</p>
+		</div>
+		<div class="content">
+			<h2>Website Content</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, elit vel bibendum bibendum, ipsum urna bibendum elit, sed bibendum nunc elit nec enim. Sed vitae elit vitae odio bibendum bibendum. Sed nec magna vel lorem bibendum bibendum. Sed euismod, elit vel bibendum bibendum, ipsum urna bibendum elit, sed bibendum nunc elit nec enim. Sed vitae elit vitae odio bibendum bibendum. Sed nec magna vel lorem bibendum bibendum.</p>
+		</div>
+	</div>
+	<footer>
+		<p>&copy; 2023 Website Name</p>
+	</footer>
+</body>
+</html>
